@@ -16,7 +16,7 @@ class GetRequester
     response.body
   end
     
-    def self.parse_json(backtrace)
+    def parse_json(backtrace)
       backtrace = JSON.parse(self.backtrace)
     end
      
